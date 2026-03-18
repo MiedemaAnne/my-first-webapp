@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<button onclick="veranderTekst()">Klik mij</button>
+<p id="tekst">Dit is de originele tekst</p>
+
+<script>
+function veranderTekst() {
+    document.getElementById("tekst").innerText = "Je hebt geklikt!";
+}
+</script>
 <head>
     <title>Mijn eerste app</title>
 </head>
